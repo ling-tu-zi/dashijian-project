@@ -90,7 +90,7 @@ const publishArticle = fd => {
       layer.msg(message)
       if (status !== 0) return
       // 等待文章列表完成
-      // location.href = '/article/art_list.html'
+      location.href = '/article/art_list.html'
     },
   })
 }
